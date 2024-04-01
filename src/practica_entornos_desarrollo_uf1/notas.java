@@ -19,36 +19,29 @@ public class notas {
 	
 	Scanner entrada = new Scanner(System.in);
 	
-	
 	/**
      * Método para ingresar las notas del estudiante.
      * 
      */
 	public void IngresaNotas() {
-	
 		System.out.println("ingrese las notas del estudiante");
 		
 		System.out.print("ingrese nota 1: ");
 		
 		uf_1= entrada.nextDouble();
 
-		
-		
 		System.out.print("ingrese nota 2: ");
 		
 		uf_2= entrada.nextDouble();
 		System.out.print("ingrese nota 3: ");
 		
 		uf_3= entrada.nextDouble();
-		
-	
 	}
 	
 	/**
      * Método para comprobar la correcta introducción de las notas.
      */
 	public void comprobarcion(){
-		
 		if (uf_1>10) {
 			System.out.println(" nota1 mal introducida");
 			
@@ -97,7 +90,6 @@ public class notas {
 		System.out.println(" acumuado 3 = "+ acu_3);
 		
 		System.out.println(" nota definitiva es = "+ def);
-		
 	}
 	
 	/**
@@ -105,7 +97,6 @@ public class notas {
      * 
      */
 	public void aprobado() {
-			
 			if(def<5 && def>=0) {
 				System.out.println("suspendio");
 			}else {
@@ -136,9 +127,7 @@ public class notas {
 		fc.Mostrar();
 		
 		fc.aprobado();
-		
 	}
-
 }
 
 
