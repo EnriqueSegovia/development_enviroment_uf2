@@ -13,7 +13,6 @@ import java.util.Scanner;
  */
 
 public class notas {
-
 	double uf_1, uf_2, uf_3;
 	double acu_1, acu_2, acu_3, def;
 	
